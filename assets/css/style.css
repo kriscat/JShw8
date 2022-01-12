@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#output {
+    padding: 20px;
+    margin: 0 auto;
+    width: max-content;
+    background-color: rgb(22, 192, 22);
+    color: rgb(5, 5, 5);
+    font-size: 25px;
+}
