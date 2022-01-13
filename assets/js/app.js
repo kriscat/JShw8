@@ -5,14 +5,15 @@ switch (a) {
         {
             let input = prompt("1.Введите число строк (только цифры)", );
             output.innerHTML = "треугольник" + "<br>";
-            for (i = 0; i <= input; i++) {
-                output.innerHTML += "<br>" + "&nbsp ";
-                for (j = 0; j < input - i; j++) {
-                    output.innerHTML += "";
-                }
-                for (j = 2 - i; j <= 1; j++) {
 
-                    output.innerHTML += "&nbsp" + " * ";
+            for (i = 0; i <= input; i++) {
+                output.innerHTML += "</br>";
+                for (j = 0; j < input - i; j++) {
+                    output.innerHTML += "&nbsp&nbsp";
+                }
+                for (j = input - i; j <= input; j++) {
+
+                    output.innerHTML += "*";
                 }
             }
             break;
